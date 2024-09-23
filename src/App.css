@@ -1,0 +1,103 @@
+/* Định dạng tổng quát cho trang */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-question {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.add-question input {
+  width: 40%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-question button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-question button:hover {
+  background-color: #0056b3;
+}
+
+.question-list {
+  margin-top: 20px;
+}
+
+.question-item {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.question-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.question-details {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+.action-buttons {
+  display: flex;
+}
+
+.action-buttons button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.action-buttons button:hover {
+  background-color: #218838;
+}
+
+.action-buttons button:last-child {
+  background-color: #dc3545;
+}
+
+.action-buttons button:last-child:hover {
+  background-color: #c82333;
+}
